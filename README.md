@@ -1,22 +1,39 @@
 # doc-generation
 Project to provide guidance and solution options for Nonprofits needing a doc gen solution
 
-This is a sample README.md file you can use to update your project. New project repos will use this template when they are created.
+# Open Source doc- gen Solution 
 
-# Project Name
-Please replace with your projects name
 
 # Project Overview
-## Vision & Goals
-Please replace with your projects vision.
-* Goal 1
-* Goal 2
 
-## Project Vertical
-Please replace with Nonprofit, Education, or Other (if Other, explain further)
+Problem :- 
+
+Users want to be able to produce documents from inputter data
+Branding reqs for the documents
+Attach to objects inside salesforce
+Different reqs for these e.g. Formating, req’d fields, signature reqs
+Native app so not navigating away or using a third party
+Drag and drop capability for non-technical users
+Allow for fields of different sizes, lengths, formats
+Permissions - who should be able to generate these documents
+Security/data access issues
+
+RESTRICTIONS:
+One time creation, date stamped 
+User created
+Fields like picklists and how these are displayed
+
+
+##  Visions & Goals 
+Convert Email Templates to PDF 
+Functional for any page size/ Image/ Content.
+
+
+## Vertical-  Nonprofit 
+
 
 ## Trailblazer Group or Slack Channel Link (access required)
-Please replace with the URL for your Trailblazer Community group and/or Slack channel issued by the Commons program team.
+https://app.slack.com/client/T01G0063H29/C04K8PJNYLW/thread/C04AFQFSCQP-1673954871.274739
 
 ## How to Contribute:
 - Way 1.
