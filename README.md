@@ -41,8 +41,10 @@ https://app.slack.com/client/T01G0063H29/C04K8PJNYLW/thread/C04AFQFSCQP-16739548
 - Way 3. 
 
 ## Project Resources and Documentation
-Documentation can be found in the repository [wiki] (URL for wiki where docs are stored)
-
+[Documentation can be found in the repository [wiki] (URL for wiki where docs are stored)
+](https://docs.google.com/presentation/d/1PDGXjLBDfAEgEiokrvMGObkf2pdQ6evNHxAkrX3yuV0/edit#slide=id.g1d752c44c13_0_0)
+https://docs.google.com/forms/d/e/1FAIpQLSd8483IlUJUJlznxsMznZHkmWJQ75O83pkzdKien1seg-4jJw/viewform
+https://docs.google.com/document/d/1bUG0DQGpAULCAyFRIWJnFWAnWWBVuWfZI6oacJOYqD8/edit
 
 ***
 BELOW CONTENT TO USE TO CREATE YOUR FIRST WIKI PAGE TO HOUSE DETAILS ABOUT YOUR SPRINT PARTICIPATION. 
@@ -50,7 +52,7 @@ BELOW CONTENT TO USE TO CREATE YOUR FIRST WIKI PAGE TO HOUSE DETAILS ABOUT YOUR 
 2. Update that wiki page with details from the Sprint. 
 3. Copy that format for the next Sprint.
 
-# Sprint (DATE): 
+# Sprint (17th and 18th Jan 23 london - ): 
 ## Project Team & Accomplishments
 Add details here - what you did, links to docs if there are any, etc.
 
@@ -58,8 +60,12 @@ Add details here - what you did, links to docs if there are any, etc.
 
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
-Enter persons name   | Group Leader  | [fakeusername](https://github.com/fakeusername)    | 
-Enter persons name   | Contributor   |                                                    | Enter working group name
+Rebecca Heald        | Group Leader  |    | 
+Aishwarya Badri      | Contributor   |                                                    | Enter working group name
+Phoebe Lee
+Srividya
+
+
 
 ## Future Contributions 
 (AKA what were you unable to finish at the Sprint)
