@@ -36,8 +36,8 @@ Functional for any page size/ Image/ Content.
 https://app.slack.com/client/T01G0063H29/C04K8PJNYLW/thread/C04AFQFSCQP-1673954871.274739
 
 ## How to Contribute:
-- Way 1.
-- Way 2. 
+- Way 1. Support by providing us used cases of Doc Gen Requirement within the Non Profit Sector
+- Way 2. Support with developing and testing the tool 
 - Way 3. 
 
 ## Project Resources and Documentation
@@ -61,7 +61,7 @@ Add details here - what you did, links to docs if there are any, etc.
 Full Name            | Team Role     | Github Username                                    | Working Group? 
 ------------         | ------------- | -------------                                      |-------------   
 Rebecca Heald        | Group Leader  |    | 
-Aishwarya Badri      | Contributor   |                                                    | Enter working group name
+Aishwarya Badri      | Contributor   |                                                    | 
 Phoebe Lee
 Srividya
 
