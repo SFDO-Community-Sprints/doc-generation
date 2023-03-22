@@ -19,10 +19,18 @@ User creates/updates an Lightning email template (With merge fields if applicabl
     LightningWebComponent : generateDocumentsQuickAction
   Label : <your choice>
 3. Add the quick action to the required page layout. Example, for quick action to be on Account, Object Manager-> Account-> Page layouts-> Mobile Lightning Action-> Drag and drop the quick action created on the previous step.
-4. Your installation is ready !
+4. Setup-> Static Resources -> upload download.js . MIME Type: Text/Javascript , Cache control : Public
+5. Your installation is ready !
 
     
-    
+ <img width="952" alt="1" src="https://user-images.githubusercontent.com/66730581/227024504-e6cd909a-a9ee-4faa-99ea-67f50a12d9fd.png">
+<img width="949" alt="2" src="https://user-images.githubusercontent.com/66730581/227024553-1a4ad10a-b1d0-407e-a112-dc36e52c7883.png">
+<img width="770" alt="3" src="https://user-images.githubusercontent.com/66730581/227024606-d554c324-7014-4f12-88d9-b03c17c0d1d2.png">
+<img width="758" alt="4" src="https://user-images.githubusercontent.com/66730581/227024595-ce978a84-525d-4800-bc05-37068b7a5d32.png">
+
+
+
+
     
     
       
@@ -30,6 +38,7 @@ User creates/updates an Lightning email template (With merge fields if applicabl
     
   1. Once installed, your quick action button should be available on detail page. 
   2. Click on the button-> choose your document template-> Click on generate Document.
+  <img width="956" alt="6" src="https://user-images.githubusercontent.com/66730581/227024603-d9315455-f6e6-48c0-b0be-9d4430d0920f.png">
   
   
 
