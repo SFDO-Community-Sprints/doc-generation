@@ -1,0 +1,51 @@
+<template>
+    <template if:true={showOptions}>
+       <lightning-modal-header label="Generate Document"></lightning-modal-header>
+        <lightning-modal-body> 
+                
+               
+
+                <div class="slds-p-around_large">
+                    <label style="font-weight: 500;"
+                    for="template" >Choose a template</label> 
+                </br>
+                    <lightning-radio-group name="emailtemplate"
+                    label= ""
+                    id="template"
+                    options={options}
+                    value={emailTemplateValue}
+                    type="radio"
+                    onchange={handleRadionChange}></lightning-radio-group>
+                </br>
+                <div style="display: flex;">
+                    <label style="font-weight: 500;"
+                for="template" >Save document in Salesforce?</label> 
+                <lightning-input type="toggle" 
+                label=  "" 
+                id="YesorNo"
+                onchange={toggleChange} 
+                checked={insertAttachment} 
+                name="input1"
+                messagetoggleactive="Save"
+                messagetoggleinactive="Don't save"></lightning-input>
+                
+                
+            
+                    </div>
+                
+              
+                
+        </div>
+        </lightning-modal-body>
+            <lightning-modal-footer>
+                <lightning-button variant="neutral" label="Cancel" onclick={cancelAction}></lightning-button>
+                <lightning-button variant="brand" label="Generate PDF" onclick={handleNext} class="slds-m-left_x-small"></lightning-button>
+            </lightning-modal-footer>
+        
+    </template>
+
+    
+
+ 
+
+</template>
