@@ -27,6 +27,7 @@ User creates/updates an Lightning email template (With merge fields if applicabl
 3. Add the quick action to the required page layout. Example, for quick action to be on Account, Object Manager-> Account-> Page layouts-> Mobile Lightning Action-> Drag and drop the quick action created on the previous step.
      <img width="949" alt="2" src="https://user-images.githubusercontent.com/66730581/227024553-1a4ad10a-b1d0-407e-a112-dc36e52c7883.png">
 4. Setup-> Static Resources -> upload download.js . MIME Type: Text/Javascript , Cache control : Public
+    <img width="626" alt="7" src="https://user-images.githubusercontent.com/66730581/227025704-c4eeb6b0-3458-4b97-a138-045c3540b279.png"> 
 5. Your installation is ready !
 
     
