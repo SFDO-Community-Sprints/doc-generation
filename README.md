@@ -14,21 +14,24 @@ User creates/updates an Lightning email template (With merge fields if applicabl
 
 ## Installation Guide:
 1. Create the desired email template. The name of the email template should contain the API Name of the sObject based out of which the document need to be generated. Example, if you want to create a welcome aboard email template for new accounts, your email template name should be  Account_<welcomeAboard> or welcomeAboard_Account.
-     <img width="952" alt="1" src="https://user-images.githubusercontent.com/66730581/227024504-e6cd909a-a9ee-4faa-99ea-67f50a12d9fd.png">
-    
+     
+<img width="770" alt="3" src="https://user-images.githubusercontent.com/66730581/227024606-d554c324-7014-4f12-88d9-b03c17c0d1d2.png">
+<img width="758" alt="4" src="https://user-images.githubusercontent.com/66730581/227024595-ce978a84-525d-4800-bc05-37068b7a5d32.png">
+
 2. Create a quick action on the corresponding Object. 
     Action type: Lightning web component
     LightningWebComponent : generateDocumentsQuickAction
   Label : <your choice>
+     <img width="952" alt="1" src="https://user-images.githubusercontent.com/66730581/227024504-e6cd909a-a9ee-4faa-99ea-67f50a12d9fd.png">
+     
 3. Add the quick action to the required page layout. Example, for quick action to be on Account, Object Manager-> Account-> Page layouts-> Mobile Lightning Action-> Drag and drop the quick action created on the previous step.
+     <img width="949" alt="2" src="https://user-images.githubusercontent.com/66730581/227024553-1a4ad10a-b1d0-407e-a112-dc36e52c7883.png">
 4. Setup-> Static Resources -> upload download.js . MIME Type: Text/Javascript , Cache control : Public
 5. Your installation is ready !
 
     
 
-<img width="949" alt="2" src="https://user-images.githubusercontent.com/66730581/227024553-1a4ad10a-b1d0-407e-a112-dc36e52c7883.png">
-<img width="770" alt="3" src="https://user-images.githubusercontent.com/66730581/227024606-d554c324-7014-4f12-88d9-b03c17c0d1d2.png">
-<img width="758" alt="4" src="https://user-images.githubusercontent.com/66730581/227024595-ce978a84-525d-4800-bc05-37068b7a5d32.png">
+
 
 
 
