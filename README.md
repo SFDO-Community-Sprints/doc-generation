@@ -7,28 +7,34 @@ This project a proud part of Salesforce.org Open Source Commons initiative.
 
 Users want to be able to generate PDF documents for different use case scenarios. The document generators available in markets are pricey or require significant  technical expertise.
 
-##Solution :- 
+## Solution :- 
 The Open source document generator combines the power of Salesforce email templates and LWC. It enables the users to generate documents tailored to their specific needs.
 Working :
 User creates/updates an Lightning email template (With merge fields if applicable). User also adds a quick action on the record page of sObject. On click of the quick action, user chooses the applicable email template and  system resolves the merge fields and creates a PDF document (based on the chosen email template)
 
-##Installation Guide:
+## Installation Guide:
 1. Create the desired email template. The name of the email template should contain the API Name of the sObject based out of which the document need to be generated. Example, if you want to create a welcome aboard email template for new accounts, your email template name should be  Account_<welcomeAboard> or welcomeAboard_Account.
 2. Create a quick action on the corresponding Object. 
     Action type: Lightning web component
     LightningWebComponent : generateDocumentsQuickAction
-  Label : < your choice>
+  Label : <your choice>
 3. Add the quick action to the required page layout. Example, for quick action to be on Account, Object Manager-> Account-> Page layouts-> Mobile Lightning Action-> Drag and drop the quick action created on the previous step.
 4. Your installation is ready !
-  
- ## How to generate Document?
+
+    
+    
+    
+    
+      
+ ##  How to generate Document: 
+    
   1. Once installed, your quick action button should be available on detail page. 
   2. Click on the button-> choose your document template-> Click on generate Document.
   
   
 
 
-##Considerations/limitations:
+##  Considerations/limitations:
 Currently, this tool does not support templates with  rich text formats and multiple images. However it supports basic HTML templates.
 
 
